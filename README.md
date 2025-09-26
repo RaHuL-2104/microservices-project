@@ -34,7 +34,6 @@ A **Full Microservices Architecture** project built with **Spring Boot 3** and *
 - **Event-Driven Communication:** Uses Apache Kafka to propagate events between services.  
 - **Authentication & Authorization:** Secure endpoints using Keycloak with OAuth2 and JWT.  
 - **Database Migrations:** Flyway-managed schema evolution for PostgreSQL/MySQL.  
-- **Observability:** Prometheus metrics and Grafana dashboards for monitoring.  
 - **Containerized Deployment:** Docker & Docker Compose for easy local setup and testing.  
 
 ---
