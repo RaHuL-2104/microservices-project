@@ -1,0 +1,26 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE configs
+*.iml
+.idea/
+.vscode/
+*.classpath
+*.project
+*.settings/
+
+# Ignore build directories
+target/
+build/
+
+# Ignore Maven wrapper logs
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore logs
+*.log
+
+# Ignore Docker volumes and database data
+**/volume-data/
+**/mysql_keycloak_data/
+*.sock
